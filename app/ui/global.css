@@ -1,3 +1,8 @@
+/* If you look inside the /app/ui folder, */
+/* you'll see a file called global.css. You can use this file to add CSS rules to all the routes in your application - such as CSS reset rules, site-wide styles for HTML elements like links, and more. */
+
+
+/* @tailwind directives */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
