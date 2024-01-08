@@ -10,7 +10,8 @@ export default async function InvoicesTable({
 }: {
   query: string;
   currentPage: number;
-}) {
+  }) {
+  // <Table> is a Server Component that fetches its own data, so you can pass the searchParams prop from the page to the component.
   const invoices = await fetchFilteredInvoices(query, currentPage);
 
   return (
